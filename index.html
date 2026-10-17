@@ -12,7 +12,7 @@
 <body>
 <div class="utility"><div class="shell"><span><strong>Current affairs</strong> · A daily reading edition</span><span>Selected sources · Original links</span></div></div>
 <header class="mast"><div class="shell"><div class="masttop"><span class="edition"><i class="live-dot"></i> Daily edition</span><span>The Daily Brief</span><span class="edition">Issue <b id="issue-no"></b></span></div><div class="logo">The Daily <span>Brief</span></div><p class="tagline">Essential stories, thoughtfully selected.</p><div class="date-line"><span id="today"></span><b>•</b><span id="update-status">Edition updated daily</span></div></div></header>
-<nav class="navbar" aria-label="Sections"><div class="shell navinner" id="nav"><button class="navbtn active" data-category="All">Front page</button><button class="navbtn" data-category="Economics">Economics</button><button class="navbtn" data-category="Politics">Politics</button><button class="navbtn" data-category="Education">Education</button><button class="navbtn" data-category="War">War</button><button class="navbtn" id="date-toggle">By date</button><span class="nav-spacer"></span><button class="iconbtn" id="saved-toggle" title="Show saved stories">♡ Saved <span id="saved-count">0</span></button><button class="iconbtn" id="theme-toggle" title="Toggle dark mode">◐</button></div></nav>
+<nav class="navbar" aria-label="Sections"><div class="shell navinner" id="nav"><button class="navbtn active" data-category="All">Front page</button><button class="navbtn" data-category="Economics">Economics</button><button class="navbtn" data-category="Politics">Politics</button><button class="navbtn" data-category="Education">Education</button><button class="navbtn" data-category="War">War</button><button class="navbtn" data-category="Protest">Protest</button><button class="navbtn" id="date-toggle">By date</button><span class="nav-spacer"></span><button class="iconbtn" id="saved-toggle" title="Show saved stories">♡ Saved <span id="saved-count">0</span></button><button class="iconbtn" id="theme-toggle" title="Toggle dark mode">◐</button></div></nav>
 <main class="shell">
   <section class="lead-layout" id="front-layout" aria-label="Top stories">
     <article class="lead" id="lead-story"><div class="lead-art"></div><div class="lead-content"><div class="eyebrow">No. 01 · War / EU</div><h1>Trump puts new Russia sanctions on hold amid deepening row with Ukraine</h1><p>The Guardian reports Trump’s decision to pause the sanctions package, amid Zelenskyy’s warning that the move sends money back to Russia.</p><div class="story-meta">The Guardian · 17 Oct 2026</div><div class="lead-actions" style="margin-top:21px"><a class="read-link" href="https://www.theguardian.com/us-news/2026/oct/17/trump-puts-new-russia-sanctions-passed-by-congress-on-hold-amid-deepening-row-with-ukraine" target="_blank" rel="noopener noreferrer">Read the lead story ↗</a></div></div></article>
@@ -27,7 +27,7 @@
 <div class="toast" id="toast" role="status"></div>
 <script src="data.js"></script>
 <script>
-const categories=['Economics','Politics','Education','War'];
+const categories=['Economics','Politics','Education','War','Protest'];
 const stories=window.BRIEFING_STORIES||[];
 const $=s=>document.querySelector(s);
 let category='All',region='All',source='All',archiveDate='',savedOnly=false;
