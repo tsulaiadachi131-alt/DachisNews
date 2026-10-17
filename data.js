@@ -26,7 +26,7 @@ window.BRIEFING_STORIES = [
     priority: 5,
     title: "France’s school funding protests put pressure on the government",
     summary: "The Washington Post reports on nationwide demonstrations calling for more school funding and the political pressure they create.",
-    category: "Education", region: "EU", source: "The Washington Post", date: "2026-10-06",
+    category: "Education", alsoCategories: ["Protest"], region: "EU", source: "The Washington Post", date: "2026-10-06",
     url: "https://www.washingtonpost.com/world/2026/10/06/france-education-protests-macron-police/f4c764fc-c15f-11f1-8170-681419af1cc9_story.html"
   },
   {
