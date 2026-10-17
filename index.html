@@ -8,6 +8,30 @@
 @media(max-width:900px){.shell{padding:0 22px}.lead-layout{grid-template-columns:1.3fr .8fr}.lead{min-height:375px}.stories{grid-template-columns:repeat(2,1fr)}.story-card:nth-child(3n){margin-right:20px;padding-right:20px}.story-card:nth-child(2n){margin-right:0;padding-right:0}}
 @media(max-width:650px){.shell{padding:0 16px}.utility .shell{font-size:9px}.mast{padding-top:18px}.logo{margin:19px 0 12px}.tagline{font-size:13px}.masttop{font-size:9px}.edition:last-child{display:none}.navinner{min-height:46px}.navbtn{padding:14px 12px}.iconbtn{padding:9px}.lead-layout{grid-template-columns:1fr;gap:20px}.lead{min-height:420px}.lead-content{padding:23px}.lead h1{font-size:38px}.side-stack{display:grid;grid-template-columns:1fr 1fr;column-gap:18px}.side-head{grid-column:1/-1}.side-story:nth-child(odd){margin-right:0}.section-heading{gap:10px;align-items:start;flex-direction:column}.briefing-head .section-heading{align-items:flex-start}.briefing-head .controls{justify-content:flex-start;width:100%}.select{max-width:none;flex:1}.stories{grid-template-columns:1fr}.story-card,.story-card:nth-child(2n),.story-card:nth-child(3n){margin:0;padding:17px 0;min-height:0}.digest-note,.footer-grid{flex-direction:column}.source-list{columns:1}}
 </style>
+<style>
+/* Original modern magazine treatment: strong section labels, a crisp masthead, and editorial story grid. */
+:root{--paper:#fff;--ink:#151515;--muted:#6e6e6e;--line:#d9d9d9;--green:#c51d2a;--rust:#c51d2a;--panel:#f3f3f3;--white:#fff;--shadow:0 16px 44px #16161618}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--paper)}
+body.night{--paper:#171717;--ink:#f5f3f1;--muted:#b5b2b0;--line:#414141;--green:#f06c76;--rust:#f06c76;--panel:#222;--white:#1d1d1d}
+.utility{background:#151515;color:#e6e6e6;border:0}.utility strong{color:#ff646c}
+.mast{padding:17px 0 19px;border-bottom:1px solid var(--ink);background:var(--paper)}
+.masttop{font-size:10px;letter-spacing:.13em}.masttop>span:nth-child(2){color:var(--rust);font-weight:700}
+.logo{text-align:left;font:800 clamp(45px,7vw,84px)/.86 Georgia,"Times New Roman",serif;letter-spacing:-.07em;margin:19px 0 11px}
+.logo span{color:var(--rust);font-style:normal}
+.tagline{text-align:left;font:italic 14px Georgia,serif;margin:0 0 12px}
+.date-line{justify-content:flex-start;font-size:10px;letter-spacing:.12em}
+.navbar{background:color-mix(in srgb,var(--paper) 96%,transparent);border-top:1px solid var(--line);border-bottom:2px solid var(--ink)}
+.navinner{min-height:47px}.navbtn{font-size:10px;letter-spacing:.14em;padding:14px 13px}.navbtn:hover,.navbtn.active{color:var(--rust);border-color:var(--rust)}
+main{padding-top:26px}.section-heading{border-bottom:2px solid var(--ink)}.section-heading h2{font:700 27px/1 Georgia,serif}
+.eyebrow{color:var(--rust);letter-spacing:.15em}
+.lead{min-height:440px;background:#261316;box-shadow:none}.lead-art{background:radial-gradient(ellipse at 80% 12%,#ff6874 0,transparent 27%),radial-gradient(ellipse at 70% 85%,#7a1522 0,transparent 38%),linear-gradient(125deg,#161616 5%,#36131a 56%,#941b2a 100%)}
+.lead-art:before{border-color:#fff3;box-shadow:0 0 0 28px #fff08,0 0 0 56px #fff08,0 0 0 84px #fff08}.lead-art:after{background:linear-gradient(145deg,#ff8e8e,#c51d2a);opacity:.42}
+.lead .eyebrow{color:#ffb8b8}.lead h1{font-size:clamp(36px,4.8vw,60px)}.lead p{font-family:Georgia,serif}
+.side-stack{border-top:2px solid var(--ink)}.side-head{color:var(--rust);border-bottom:1px solid var(--line)}.rank{color:#c3c3c3}.side-story h3{font-size:19px}.side-story h3 a:hover,.story-card h3 a:hover{color:var(--rust)}
+.controls select,.controls input{border-radius:999px;padding:10px 13px}.date-panel{border-left:4px solid var(--rust);margin-top:4px}.date-chip{border-radius:999px}.date-chip:hover,.date-chip.active{background:var(--rust);border-color:var(--rust)}
+.stories{border-top:2px solid var(--ink)}.story-card{position:relative;padding-top:20px}.story-card:before{content:"";display:block;width:30px;height:3px;background:var(--rust);position:absolute;top:-2px;left:0}.story-card h3{font:700 23px/1.12 Georgia,"Times New Roman",serif}.story-card p{font:14px/1.5 Arial,Helvetica,sans-serif}.read-link{color:var(--rust)}.savebtn{border-radius:999px}.footer{background:#171717;color:#c9c9c9}.sources-summary{color:#fff}.digest-note{border-top:2px solid var(--ink)}
+@media(max-width:650px){.logo{margin:17px 0 10px}.tagline{margin-bottom:10px}.lead{min-height:400px}.lead h1{font-size:37px}.navbtn{padding:13px 11px}.story-card:before{top:0}}
+</style>
 </head>
 <body>
 <div class="utility"><div class="shell"><span><strong>Current affairs</strong> · A daily reading edition</span><span>Selected sources · Original links</span></div></div>
