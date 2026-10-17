@@ -15,7 +15,7 @@ To update the site manually, edit `data.js` and add or replace story objects in 
 - `priority`: editorial importance rank; `1` appears first
 - `title`: headline
 - `summary`: concise, accurate description based on the linked article
-- `category`: `Economics`, `Politics`, `Education`, or `War`
+- `category`: `Economics`, `Politics`, `Education`, `War`, or `Protest`
 - `region`: `Czechia`, `Georgia`, `EU`, or `USA`
 - `source`: publisher name from the approved list
 - `date`: publication date as `YYYY-MM-DD`
